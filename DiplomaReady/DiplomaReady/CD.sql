@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[CD]
+(
+	[RecordID] NVARCHAR(10) NOT NULL PRIMARY KEY, 
+    [Title] NVARCHAR(50) NULL, 
+    [Performer] NVARCHAR(50) NULL
+
+)
